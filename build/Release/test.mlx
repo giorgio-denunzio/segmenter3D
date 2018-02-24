@@ -1,0 +1,9 @@
+<!DOCTYPE FilterScript>
+<FilterScript>
+<filter name="Texel Sampling">
+  <Param tooltip="A sample for each texel is generated, so the desired texture size is need, only samples for the texels falling inside some faces are generated.&#xa; Setting this param to 256 means that you get at most 256x256 = 65536 samples).&lt;br>If this parameter is 0 the size of the current texture is choosen." name="TextureW" type="RichInt" description="Texture Width" value="4096"/>
+  <Param tooltip="A sample for each texel is generated, so the desired texture size is need, only samples for the texels falling inside some faces are generated.&#xa; Setting this param to 256 means that you get at most 256x256 = 65536 samples)" name="TextureH" type="RichInt" description="Texture Height" value="4096"/>
+  <Param tooltip="The generated texel samples have their UV coords as point positions. The resulting point set is has a square domain, the texels/points, even if on a flat domain retain the original vertex normal to help a better perception of the original provenience." name="TextureSpace" type="RichBool" description="UV Space Sampling" value="false"/>
+  <Param tooltip="The generated point cloud has the current texture color" name="RecoverColor" type="RichBool" description="RecoverColor" value="true"/>
+ </filter>
+</FilterScript>

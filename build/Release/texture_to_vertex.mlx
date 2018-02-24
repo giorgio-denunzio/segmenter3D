@@ -1,0 +1,8 @@
+<!DOCTYPE FilterScript>
+<FilterScript>
+ <filter name="Transfer: Texture to Vertex Color (1 or 2 meshes)">
+  <Param value="0" type="RichMesh" name="sourceMesh" tooltip="The mesh with associated texture that we want to sample from" description="Source Mesh"/>
+  <Param value="0" type="RichMesh" name="targetMesh" tooltip="The mesh whose vertex color will be filled according to source mesh texture" description="Target Mesh"/>
+  <Param value="0.156447" max="7.82234" type="RichAbsPerc" min="0" name="upperBound" tooltip="Sample points for which we do not find anything whithin this distance are rejected and not considered for recovering color" description="Max Dist Search"/>
+ </filter>
+</FilterScript>

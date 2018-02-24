@@ -1,0 +1,16 @@
+<!DOCTYPE FilterScript>
+<FilterScript>
+ <filter name="Rename Current Mesh">
+  <Param type="RichString" name="newName" tooltip="New Label for the mesh" value="mainMesh" description="New Label"/>
+ </filter>
+ <filter name="Texel Sampling">
+  <Param type="RichInt" name="TextureW" tooltip="A sample for each texel is generated, so the desired texture size is need, only samples for the texels falling inside some faces are generated.&#xa; Setting this param to 256 means that you get at most 256x256 = 65536 samples).&lt;br>If this parameter is 0 the size of the current texture is choosen." value="4096" description="Texture Width"/>
+  <Param type="RichInt" name="TextureH" tooltip="A sample for each texel is generated, so the desired texture size is need, only samples for the texels falling inside some faces are generated.&#xa; Setting this param to 256 means that you get at most 256x256 = 65536 samples)" value="4096" description="Texture Height"/>
+  <Param type="RichBool" name="TextureSpace" tooltip="The generated texel samples have their UV coords as point positions. The resulting point set is has a square domain, the texels/points, even if on a flat domain retain the original vertex normal to help a better perception of the original provenience." value="false" description="UV Space Sampling"/>
+  <Param type="RichBool" name="RecoverColor" tooltip="The generated point cloud has the current texture color" value="true" description="RecoverColor"/>
+ </filter>
+ <filter name="Change the current layer">
+  <Param type="RichMesh" name="mesh" tooltip="The name of the current mesh" value="0" description="Mesh"/>
+ </filter>
+ <filter name="Delete Current Mesh"/>
+</FilterScript>
