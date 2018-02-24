@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\SfM\SEGMENTATION\TESTVCPKGQT\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\SfM\SEGMENTATION\TESTVCPKGQT\src\pclviewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\SfM\SEGMENTATION\TESTVCPKGQT\src\CSegmenterRegionGrowing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\SfM\SEGMENTATION\TESTVCPKGQT\build\pcl_visualizer_autogen\mocs_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CSegmenterColumns.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CSegmenterLCCP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pgmb_io.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\SfM\SEGMENTATION\TESTVCPKGQT\src\pclviewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\SfM\SEGMENTATION\TESTVCPKGQT\src\CSegmenterRegionGrowing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CSegmenterColumns.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CSegmenterLCCP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\pgmb_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\SfM\SEGMENTATION\TESTVCPKGQT\src\pclviewer.ui" />
+    <CustomBuild Include="F:\SfM\SEGMENTATION\TESTVCPKGQT\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{47A5E3EE-E438-3F9F-AFAD-F434C04C3D1F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DA13E0CE-91E1-35AB-8A52-EDEAFC9CBAFE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,4 @@
+--compiler-flavor=msvc
+-o
+F:/SfM/SEGMENTATION/TESTVCPKGQT/build/moc_pclviewer.cpp
+F:/SfM/SEGMENTATION/TESTVCPKGQT/src/pclviewer.h
